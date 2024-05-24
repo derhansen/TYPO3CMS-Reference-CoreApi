@@ -61,6 +61,9 @@ Settings, relevant to the persistence layer of Extbase.
 `persistence.storagePid`
     List of Page-IDs, from which all records are read.
 
+`persistence.classes.<classname>.newRecordStoragePid`
+    Page-ID, where new records for objects of the class `<classname>` will be stored.
+
 .. _extbase_typoscript_configuration-settings:
 
 Settings
